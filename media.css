@@ -117,7 +117,7 @@ and (max-width: 999px) {
   }
 
   .citace {
-    padding-bottom: 1em;
+    padding-bottom: 3em;
   }
 
   .banner {
@@ -138,7 +138,7 @@ and (max-width: 999px) {
   font-size: 1.1em;
 }
 
-  .img {
+  .grid__obrazek {
     width: 100%;
   }
 
@@ -179,7 +179,7 @@ and (max-width: 999px) {
     margin-top: -70px;
   }
 
-  .img {
+  .grid__obrazek {
     padding: 0;
   }
 
