@@ -1,0 +1,350 @@
+@media only screen 
+and (min-width: 0px)
+and (max-width: 999px) {
+
+.postup_realizace {
+    flex-direction: column;
+  }
+
+  .postup_realizace__nadpis {
+    width: 100%;
+  }
+
+  .postup_realizace__vysvetlivky {
+    width: 100%;
+  }
+  
+  .postup_realizace__vysvetlivky__a1 > p {
+    margin-left: .5em;
+  }
+
+  .postup_realizace__vysvetlivky__a2 p:first-of-type {
+    font-size: 1.25rem;   
+    font-weight: 600;
+    margin-top: .2em;
+   }
+
+  .postup_realizace__vysvetlivky__a2 {
+    margin: 0 auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1rem;
+  }
+
+  .postup_realizace__vysvetlivky > div:first-child > P::after {
+    height: 60px;
+  }
+
+  .postup_realizace__nadpis > div {
+    max-width: 86%;
+    margin: 0 auto;
+    margin-top: 4em;
+  }
+
+  .postup_realizace__nadpis {
+    height: auto;
+    padding-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  .postup_realizace__nadpis h2 {
+    font-size: 2rem;
+  }
+
+  .postup_realizace__nadpis p {
+    font-size: 1.25rem;
+  }
+  .postup_realizace__vysvetlivky > div:first-child {
+     margin-top: 2em;
+  }
+
+  
+  .galerie__foto__samotne {
+    width: 100%;
+  }
+  .galerie {
+    width: 86%;
+    margin-top: 3em;
+  }
+
+  .galerie__text h2 {
+    font-size: 2em;
+  }
+
+  .galerie__text a {
+    font-size: 14px;
+  }
+
+  .galerie__text {
+    padding-right: 25px;
+  }
+
+  .galerie__foto {
+    margin-top: .5em;
+  }
+
+  .recenze {
+    flex-direction: column;
+  }
+
+  .recenze__obal {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+
+  .recenze__obal:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .omezeni-sirky {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .citace--text p {
+    font-size: 1.25em;
+    line-height: 40px;
+    margin-bottom: 2em;
+  }
+
+  .citace--autor {
+    line-height: 32px;
+  }
+
+  .citace--text {
+    margin-bottom: 0;
+  }
+
+  .citace {
+    padding-bottom: 1em;
+  }
+
+  .banner {
+    background-position: 50% 50%;
+  }
+  
+  .banner__text {
+    max-width: 70%;
+    position: absolute;
+    right: 10px;
+    top: 140px;
+}
+
+.banner__text h3 {
+  font-size: 1.6em;
+}
+.banner__text p {
+  font-size: 1.1em;
+}
+
+  .img {
+    width: 100%;
+  }
+
+  .grid {
+    text-align: left;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .grid__nadpis {
+    width: 100%;
+    margin-left: -20px;
+  }
+
+  .grid__nadpis h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .grid__boxik {
+    width: 100%;
+    padding: 0;
+  }
+
+  
+  .small-box {
+    width: 70%;
+    margin-left: 4.5em;
+    position: relative;
+    padding: 0 40px;
+  }
+
+  .grid--down {
+    margin-left: 0;
+  }
+
+  .lift {
+    margin-top: -70px;
+  }
+
+  .img {
+    padding: 0;
+  }
+
+  .banner__text {
+    margin-left: 0;
+  }
+
+  .expertise__description {
+    max-width: 100%;
+  }
+
+  .first_text {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .expertise {
+    max-width: 100%;
+  }
+
+  .first_text__popis {
+    max-width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.85rem;
+    margin-bottom: .45em;
+}
+
+header h2 {
+    padding: .45em 1em;
+    border-radius: 10px;
+    font-size: 1.05rem;
+}
+
+header h3 {
+    text-transform: uppercase;
+    font-size: .85rem;
+    margin-top: 1.25em;
+}
+
+.nadpis {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.first_text__popis {margin-bottom: 3em;}
+
+.first_text__popis p:last-of-type {
+  margin-bottom: 2em;
+}
+}
+
+@media only screen 
+and (min-width: 600px)
+and (max-width: 999px) {
+  .galerie__foto__samotne {
+    width: 49%;
+  }
+
+  .banner__text {
+    max-width: 50%;
+    right: 40px;
+    margin-right: .5em;
+}
+
+  .thumbnail__content h5 {
+    font-size: 14px;
+  }
+
+  .thumbnail__content h4 {
+    font-size: 20px;
+  }
+
+  .pictur {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .grid__boxik {
+    width: 80%;
+  }
+
+  .small-box {
+    width: 65%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: .25em;
+}
+
+header h2 {
+    padding: .35em 1.55em;
+    border-radius: 10px;
+    font-size: 1.35rem;
+}
+
+header h3 {
+    text-transform: uppercase;
+    font-size: 1.05rem;
+    margin-top: 1em;
+}
+}
+
+
+@media only screen 
+and (min-width: 1000px)
+and (max-width: 1260px) {
+  .grid__nadpis h3 {
+    font-size: 26px;
+    padding: 10px 10px 10px 40px;
+    line-height: 50px;
+  }
+
+  .banner__text h3 {
+    font-size: 1.6em;
+  }
+  .banner__text p {
+    font-size: 1.1em;
+  }
+
+  .banner__text {
+    max-width: 50%;
+    position: absolute;
+    right: 70px;
+    top: 100px;
+}
+
+  .banner {
+    background-position: 50% 50%;
+  }
+
+  .recenze__obal {
+    max-width: 23%;  }
+
+    .obklady {max-width: 500px;}
+
+    .first_text__popis {
+      max-width: 45%;
+      margin-right: 5em;
+    }
+
+    .first_text {
+      max-width: 85%;
+    }
+
+    .pictur {
+      margin: 0 1em;
+    }
+}
+
+
+@media only screen 
+and (min-width: 1261px)
+and (max-width: 1600px) {
+
+
+
+  .banner {
+    background-position: 40% 60%;
+  }
+
+  .banner__text {
+    right: 70px;
+    max-width: 40%;
+  }
+}

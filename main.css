@@ -1,0 +1,577 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nadpis {
+    text-align: center;
+}
+
+.recenze {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.recenze__obal {
+    box-shadow: 5px 5px 5px #d6d5d593;
+    border: 1px solid gainsboro;
+    max-width: 15%;
+    padding: 1em 2em .5em 2em;
+}
+
+.recenze--text {
+    font-style: italic;
+}
+
+.recenze__zapati {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.recenze__zapati--mesto {
+    color: rgba(187, 187, 187, 0.815);
+    margin-top: 0;
+}
+
+.recenze__zapati p:first-child {
+    margin-bottom: 0.25em;
+}
+
+.recenze__zapati p {
+    text-transform: capitalize;
+}
+
+.citace {
+    margin-top: 1em;
+    padding: 2em;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.blue {
+    background-color: #F4F9FB;
+}
+
+.citace--text {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.citace--text p {
+    font-size: 28px;
+line-height: 56px;
+margin: 0 0 60px;
+}
+
+.citace--autor {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 24px;
+    padding: 0 0 0 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.citace--autor::before {
+    background: #ff422a;
+content: "";
+display: block;
+height: 8px;
+left: 0;
+position: absolute;
+top: 5px;
+width: 8px;
+}
+
+
+.banner {
+    background-image: url(./Bez\ názvu.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    position: relative;
+}
+
+.banner__text {
+    max-width: 25%;
+    position: absolute;
+    top: 30%;
+    right: 300px;
+}
+
+.naceneni_tlacitko{
+    padding: .5em 2.5em;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.banner__text h3 {
+    font-size: 2.15em;
+    margin-bottom: .5em;
+}
+
+.banner__text p {
+    font-size: 1.25em;
+    margin-bottom: 4em;
+}
+
+.first_text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.first_text__popis {
+    max-width: 25%;
+}
+
+.first_text__popis h3 {
+    font-size: 2em;
+}
+
+.obklady {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.first_text__popis  p:last-of-type {
+    margin-bottom: 5em;
+}
+
+.expertise {
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 4em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+}
+
+.expertise__description {
+    max-width: 25%;
+}
+
+.expertise__icons {
+    flex-basis: 40%;
+}
+
+.postup_realizace {
+    display: flex;
+}
+
+.postup_realizace__nadpis{
+  width: 60vw;
+    background: -webkit-linear-gradient(rgba(45, 43, 43, 0.75), rgba(45, 43, 43, 0.75)), url(./image-proxy.jpg);
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.postup_realizace__vysvetlivky {
+    background-color: #000;
+    width: 40vw;
+    color: white;
+}
+
+.postup_realizace__vysvetlivky__a1 {
+    display: flex;
+}
+
+.postup_realizace__vysvetlivky > div:first-child {
+    margin-top: 5em;
+}
+
+.postup_realizace__vysvetlivky__a1 > p {
+    color: red;
+    font-size: 1.65rem;
+    margin-left: 1em;
+    font-weight: 500;
+    margin-right: 2em;
+    margin-top: 0;
+    line-height: 16px;
+}
+
+.postup_realizace__vysvetlivky__a2 {
+    font-size: 1.15rem;
+}
+
+.postup_realizace__vysvetlivky__a2 p:first-of-type {
+    font-size: 1.65rem;
+    line-height: 16px;
+    margin-top: 0;
+}
+
+.postup_realizace__vysvetlivky__a1 > p:after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    height: calc(100% - 16px);
+    top: 10px;
+margin: 0 auto;
+margin-top: .5em;
+    display: block;
+  }
+  .postup_realizace__vysvetlivky > div:last-child > P:after {
+    height: 0px;
+  }
+
+  .postup_realizace__nadpis h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.postup_realizace__nadpis > div {
+    margin-left: 6em;
+    margin-top: 6em;
+    max-width: 80%;
+}
+
+figure {
+
+}
+
+.galerie__text h2 {
+    color: #EB0808;
+    font-size: 4em;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.galerie__text {
+    border-right: 10px solid #000;
+    margin: 0 0 0 auto;
+    overflow: hidden;
+    padding: 10px 40px 10px 0;
+    text-align: right;
+    width: 75%;
+}
+
+.galerie {
+    box-sizing: border-box;
+margin: 0 auto;
+max-width: 1260px;
+position: relative;
+width: 92%;
+margin-top: 8em;
+}
+
+.galerie__text a {
+    display: inline-block;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 3px;
+line-height: 24px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.thumbnail {
+    background-image: url(./Advanced-carpentry-and-joinery.jpg);
+    background-position: 50%;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .thumbnail::after {
+    content: "";
+    display: block;
+    padding: 0 0 100%;
+  }
+
+  .thumbnail::before {
+    border: 0 solid #000;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+content: "";
+height: 100%;
+left: 0;
+position: absolute;
+pointer-events: none;
+top: 0;
+width: 100%;
+transition: all .2s cubic-bezier(.645,.045,.355,1);
+  }
+
+  .thumbnail:hover::before {
+    border-width: 8px;
+height: calc(100% + 40px);
+left: -20px;
+top: -20px;
+width: calc(100% + 40px);
+  }
+
+  .thumbnail:hover {
+    overflow: visible;
+  }
+
+  .thumbnail__content {
+align-items: center;
+background: rgba(57,42,41,.8);
+box-sizing: border-box;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+color: #fff;
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: center;
+position: absolute;
+margin: 40px 0 0;
+opacity: 0;
+padding: 20px;
+text-align: center;
+width: 100%;
+transition: all .2s cubic-bezier(.645,.045,.355,1);
+  }
+
+.thumbnail:hover .thumbnail__content {
+    margin: 0;
+    opacity: 1;
+}
+
+.thumbnail__content h4 {
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+letter-spacing: 0;
+line-height: 42px;
+}
+
+.thumbnail__content h5 {
+    margin: 0;
+    font-size: 17px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+letter-spacing: 3px;
+line-height: 24px;
+}
+
+.fas--cervena::before {
+    color: #EB0808;
+
+}
+
+.fas--cervena {
+    display: inline-block;
+    position: inherit;
+    transform: none;
+}
+
+.galerie__foto {
+    margin-left: -20px;
+margin-right: -20px;
+margin-top: calc(5em - 40px);
+}
+
+.galerie__foto__samotne {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+    text-align: left;
+    width: 33%;
+    display: inline-block;
+margin-top: 40px;
+  }
+
+  .projekt_zapati--zvyrazneni {
+    color: black;
+}
+
+.projekt_zapati h2 {
+    line-height: 1.75em;
+}
+
+.projekt_zapati {
+    background-color: #F1141D;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+    margin-top: 4em;
+}
+
+.projekt_zapati h2 {
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
+.fas::before {
+    content: ">";
+    color: black;
+}
+
+.projekt_zapati--zvyrazneni {
+    color: black;
+}
+
+.naceneni_tlacitko--black {
+    background-color: transparent;
+    border: 5px solid black;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-right: 1em;
+}
+
+.img {
+    width: 66.66666667%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+
+.grid__nadpis {
+    width: 33.33333333%;
+    display: inline-block;
+letter-spacing: normal;
+padding: 0 20px;
+direction: ltr;
+box-sizing: border-box;
+}
+
+.grid__nadpis h3 {
+    border-left: 10px solid #000;
+color: #ff422a;
+padding: 10px 0 10px 40px;
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 0;
+line-height: 58px;
+margin: 0 0 20px;
+text-transform: none;
+}
+
+.grid {
+    letter-spacing: -.31em;
+    direction: rtl;
+    margin-left: -20px;
+margin-right: -20px;
+margin-bottom: 40px;
+}
+
+.img img {
+    display: inline-block;
+height: auto;
+max-width: 100%;
+    width: 100%;
+}
+
+.pictur {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.grid__boxik {
+    padding: 0 40px;
+    width: 50%;
+}
+
+.grid--down {
+    direction: ltr;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.lift {
+    margin-top: -160px;
+}
+
+.reviews {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.postup_realizace__vysvetlivky__a2 p {
+    margin-bottom: 3em;
+}
+
+p.nomargin {
+    margin-bottom: 0;
+}
+
+header {
+    text-align: center;
+        background: -webkit-linear-gradient(rgba(45, 43, 43, 0.35), rgba(45, 43, 43, 0.35)), url(./Image\ 146.jpg);
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: 62% 38%;
+        color: white;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: .25em;
+}
+
+header h2 {
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    padding: .45em 3em;
+    display: inline;
+    border-radius: 10px;
+    font-weight: bold;
+    mix-blend-mode: screen;
+}
+
+header h3 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 1.25em;
+}
+
+.red {
+    color: red;
+}
+
+.nadpis {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.first_text__popis h2 {
+    font-size: 1.75rem;
+}
+
+.expertise__description h3 {
+    font-size: 1.5rem;
+}
+
+.first_text {
+    max-width: 70%;
+}
