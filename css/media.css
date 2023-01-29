@@ -24,6 +24,11 @@ and (max-width: 999px) {
     margin-top: .2em;
    }
 
+   .expertise div:nth-of-type(3)
+   {
+    max-width: 301.5px;
+   }
+
   .postup_realizace__vysvetlivky__a2 {
     margin: 0 auto;
     margin-left: 2em;
